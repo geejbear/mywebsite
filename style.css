@@ -6,10 +6,10 @@ body {
 p, ul, a, div, h3 {
     font-family:'Varela Round', sans-serif;
     color: grey;
-    font-size: 30px;
+    font-size: 20px;
 }
 p {
-    padding: 10px 30px 10px 30px
+    padding: 10px 30px 10px 30px;
 }
 h1 {
     font-family:'Varela Round', sans-serif;
@@ -20,16 +20,18 @@ h1 {
 img, iframe {
     padding: 30px 60px;
 }
-#header, h3 {
+h3 {
     padding: 30px;
+    border-top: 2px solid rgb(63 21 213);
 }
 b {
     font-weight: bold;
 }
 #menu_about, #menu_resources, #menu_contact {
     color:#BDB76B;
-    font-size: 50px;
+    font-size: 30px;
     padding: 10px 40px 10px 40px; 
+    text-decoration: none;
 }
 #menu_about:hover, #menu_resources:hover, #menu_contact:hover {
     padding-left: 30px;
